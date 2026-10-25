@@ -1,0 +1,12 @@
+from decouple import config
+
+
+
+MOVIE_INFO_URL = config('MOVIE_INFO_URL')
+BASE_URL = config('BASE_URL')
+SUBTITLE_URL = config('SUBTITLE_URL')
+PERSIAN_PREFIX = config('PERSIAN_PREFIX')
+ENGLISH_PREFIX = config('ENGLISH_PREFIX')
+API_KEY = config('API_KEY')
+TMDB_BEARER_TOKEN = config('TMDB_BEARER_TOKEN')
+BOT_USERNAME = config('BOT_USERNAME')
